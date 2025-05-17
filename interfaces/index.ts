@@ -1,6 +1,8 @@
+// interfaces/index.ts
 export interface CardProps {
   title: string;
-  image: string;
+  description: string;
+  imageUrl: string;
 }
 
 export interface ButtonProps {
